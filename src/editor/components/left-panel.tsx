@@ -31,6 +31,17 @@ export function LeftPanel() {
   const selectEntity = useEditorStore((state) => state.selectEntity);
   const setActiveTab = useEditorStore((state) => state.setActiveTab);
 
+  const statusText =
+    mode === 'place' && placementType
+      ? `Placing ${placementType}${continuousPlacement ? ' (repeat)' : ''}`
+      : selectedEntityIds.length > 1
+        ? `${selectedEntityIds.length} entities selected`
+        : selection.kind === 'entity'
+          ? `Selected ${selection.id}`
+          : selection.kind === 'decoration'
+            ? `Selected ${selection.id}`
+            : 'Board selected';
+
   return (
     <aside className="editor-sidebar">
       <div className="editor-tab-row">
@@ -44,6 +55,31 @@ export function LeftPanel() {
           Outline
         </button>
       </div>
+
+      <section className="editor-side-summary">
+        <div className="editor-side-summary__header">
+          <strong>{board.name}</strong>
+          <span>{board.boardId}</span>
+        </div>
+        <div className="editor-mini-stats">
+          <div className="editor-mini-stat">
+            <span>Resolution</span>
+            <strong>{board.environment.bounds.width} x {board.environment.bounds.height}</strong>
+          </div>
+          <div className="editor-mini-stat">
+            <span>Entities</span>
+            <strong>{board.entities.length}</strong>
+          </div>
+          <div className="editor-mini-stat">
+            <span>Decorations</span>
+            <strong>{board.decorations?.length ?? 0}</strong>
+          </div>
+          <div className="editor-mini-stat">
+            <span>Status</span>
+            <strong>{statusText}</strong>
+          </div>
+        </div>
+      </section>
 
       {activeTab === 'palette' ? (
         <section className="editor-panel-section">

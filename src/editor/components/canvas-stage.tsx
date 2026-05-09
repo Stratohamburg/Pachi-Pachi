@@ -218,28 +218,6 @@ export function CanvasStage() {
 
   return (
     <section className="editor-canvas-panel">
-      <div className="editor-canvas-meta">
-        <div>
-          <p className="eyebrow">Canvas Preview</p>
-          <h2>{board.name}</h2>
-        </div>
-        <div className="editor-canvas-meta__stats">
-          <span>{board.environment.bounds.width} x {board.environment.bounds.height}</span>
-          <span>{board.entities.length} Entities</span>
-          <span>
-            {mode === 'place' && placementType
-              ? `Placing ${placementType}${continuousPlacement ? ' (repeat)' : ''}`
-              : draggingEntityIds.length > 0
-                ? `Dragging ${draggingEntityIds.length} selected`
-                : selectedEntityIds.length > 1
-                  ? `${selectedEntityIds.length} entities selected`
-                  : selection.kind === 'entity'
-                    ? 'Drag selected entity to move'
-                  : 'Select background to inspect board'}
-          </span>
-        </div>
-      </div>
-
       <div className={`editor-canvas-frame ${mode === 'place' && placementType ? 'is-place-mode' : ''} ${draggingEntityIds.length > 0 ? 'is-dragging' : ''}`} role="presentation">
         <svg
           className="editor-canvas-svg"

@@ -273,7 +273,7 @@ function createStarterBoard(constants) {
         configRef: 103,
         transform: { x: 255, y: 870, scale: 1, rotation: -20 },
         physics: { friction: 0.3, restitution: 0.2, isStatic: true },
-        params: { maxHp: 3, breakScore: 160, width: 124, height: 18 },
+        params: { shape: 'rect', maxHp: 3, breakScore: 160, width: 124, height: 18 },
       },
       {
         id: 'glass_right',
@@ -281,7 +281,7 @@ function createStarterBoard(constants) {
         configRef: 103,
         transform: { x: 465, y: 870, scale: 1, rotation: 20 },
         physics: { friction: 0.3, restitution: 0.2, isStatic: true },
-        params: { maxHp: 3, breakScore: 160, width: 124, height: 18 },
+        params: { shape: 'rect', maxHp: 3, breakScore: 160, width: 124, height: 18 },
       },
       {
         id: 'jackpot_slot',
@@ -289,7 +289,7 @@ function createStarterBoard(constants) {
         configRef: 105,
         transform: { x: 360, y: 1160, scale: 1, rotation: 0 },
         physics: { friction: 0.5, restitution: 0.1, isStatic: true },
-        params: { rewardTableId: 'starter_jackpot', feverChargeBonus: 18, width: 124, height: 52 },
+        params: { rewardId: 'starter_jackpot', feverChargeBonus: 18, width: 124, height: 52 },
       },
       {
         id: 'drain_left',

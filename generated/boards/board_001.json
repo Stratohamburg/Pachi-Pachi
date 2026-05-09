@@ -485,6 +485,7 @@
         "isStatic": true
       },
       "params": {
+        "shape": "rect",
         "maxHp": 3,
         "breakScore": 160,
         "width": 124,
@@ -507,6 +508,7 @@
         "isStatic": true
       },
       "params": {
+        "shape": "rect",
         "maxHp": 3,
         "breakScore": 160,
         "width": 124,
@@ -529,7 +531,7 @@
         "isStatic": true
       },
       "params": {
-        "rewardTableId": "starter_jackpot",
+        "rewardId": "starter_jackpot",
         "feverChargeBonus": 18,
         "width": 124,
         "height": 52

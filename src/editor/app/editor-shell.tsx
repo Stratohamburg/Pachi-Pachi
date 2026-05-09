@@ -11,9 +11,11 @@ export function EditorShell() {
       <div className="editor-root">
         <TopToolbar />
         <div className="editor-layout">
-          <LeftPanel />
+          <div className="editor-side-column">
+            <LeftPanel />
+            <InspectorPanel />
+          </div>
           <CanvasStage />
-          <InspectorPanel />
         </div>
         <ProblemPanel />
         <StatusBar />
