@@ -1,0 +1,56 @@
+{
+  "101": {
+    "id": 101,
+    "type": "PIN_BASIC",
+    "scoreBase": 10,
+    "friction": 0.05,
+    "restitution": 0.4,
+    "maxHp": -1,
+    "desc": "普通金属钉，标准的碰撞反弹单位。"
+  },
+  "102": {
+    "id": 102,
+    "type": "BUMPER_ELASTIC",
+    "scoreBase": 50,
+    "friction": 0.1,
+    "restitution": 1.8,
+    "maxHp": -1,
+    "desc": "高亮弹力柱，碰撞后给小球强烈的动能反弹与高额分数。"
+  },
+  "103": {
+    "id": 103,
+    "type": "BLOCKER_GLASS",
+    "scoreBase": 20,
+    "friction": 0.3,
+    "restitution": 0.2,
+    "maxHp": 3,
+    "desc": "玻璃挡板，被碰撞3次后会碎裂消失，开放隐藏通道。"
+  },
+  "104": {
+    "id": 104,
+    "type": "HOLE_WORMHOLE",
+    "scoreBase": 100,
+    "friction": 0,
+    "restitution": 0,
+    "maxHp": -1,
+    "desc": "黑洞传送点，成对配置，进入后从另一端射出。"
+  },
+  "105": {
+    "id": 105,
+    "type": "SLOT_JACKPOT",
+    "scoreBase": 500,
+    "friction": 0.5,
+    "restitution": 0.1,
+    "maxHp": -1,
+    "desc": "底部中央大奖槽，落入后触发老虎机抽奖判定。"
+  },
+  "106": {
+    "id": 106,
+    "type": "SLOT_DRAIN",
+    "scoreBase": 0,
+    "friction": 0.5,
+    "restitution": 0.1,
+    "maxHp": -1,
+    "desc": "底部两端的死槽，落入后直接结算，无分数奖励。"
+  }
+}

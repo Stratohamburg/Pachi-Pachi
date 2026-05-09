@@ -1,0 +1,30 @@
+{
+  "name": "pachinko-web-mvp",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.33.4",
+  "type": "module",
+  "scripts": {
+    "build:config": "node ./scripts/build-config.mjs",
+    "dev": "node ./scripts/build-config.mjs && vite",
+    "build": "node ./scripts/build-config.mjs && tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "howler": "^2.2.4",
+    "matter-js": "^0.20.0",
+    "pixi.js": "^8.10.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zustand": "^5.0.5"
+  },
+  "devDependencies": {
+    "@types/matter-js": "^0.19.8",
+    "@types/node": "^22.15.21",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.8.3",
+    "vite": "^5.4.19"
+  }
+}

@@ -1,0 +1,581 @@
+{
+  "version": 1,
+  "boardId": "board_001",
+  "levelId": "board_001",
+  "name": "新手试炼台",
+  "backgroundId": "bg_arcade_starter",
+  "launcher": {
+    "position": {
+      "x": 360,
+      "y": 1110
+    },
+    "angle": -92,
+    "minForce": 0.016,
+    "maxForce": 0.034
+  },
+  "environment": {
+    "gravity": {
+      "x": 0,
+      "y": 9.81
+    },
+    "bounds": {
+      "width": 720,
+      "height": 1280
+    },
+    "safeMargins": {
+      "top": 32,
+      "right": 24,
+      "bottom": 48,
+      "left": 24
+    }
+  },
+  "entities": [
+    {
+      "id": "pin_1_1",
+      "type": "PIN_BASIC",
+      "configRef": 101,
+      "transform": {
+        "x": 135,
+        "y": 250,
+        "scale": 1,
+        "rotation": 0
+      },
+      "physics": {
+        "friction": 0.05,
+        "restitution": 0.4,
+        "isStatic": true
+      },
+      "params": {
+        "radius": 14
+      }
+    },
+    {
+      "id": "pin_1_2",
+      "type": "PIN_BASIC",
+      "configRef": 101,
+      "transform": {
+        "x": 225,
+        "y": 250,
+        "scale": 1,
+        "rotation": 0
+      },
+      "physics": {
+        "friction": 0.05,
+        "restitution": 0.4,
+        "isStatic": true
+      },
+      "params": {
+        "radius": 14
+      }
+    },
+    {
+      "id": "pin_1_3",
+      "type": "PIN_BASIC",
+      "configRef": 101,
+      "transform": {
+        "x": 315,
+        "y": 250,
+        "scale": 1,
+        "rotation": 0
+      },
+      "physics": {
+        "friction": 0.05,
+        "restitution": 0.4,
+        "isStatic": true
+      },
+      "params": {
+        "radius": 14
+      }
+    },
+    {
+      "id": "pin_1_4",
+      "type": "PIN_BASIC",
+      "configRef": 101,
+      "transform": {
+        "x": 405,
+        "y": 250,
+        "scale": 1,
+        "rotation": 0
+      },
+      "physics": {
+        "friction": 0.05,
+        "restitution": 0.4,
+        "isStatic": true
+      },
+      "params": {
+        "radius": 14
+      }
+    },
+    {
+      "id": "pin_1_5",
+      "type": "PIN_BASIC",
+      "configRef": 101,
+      "transform": {
+        "x": 495,
+        "y": 250,
+        "scale": 1,
+        "rotation": 0
+      },
+      "physics": {
+        "friction": 0.05,
+        "restitution": 0.4,
+        "isStatic": true
+      },
+      "params": {
+        "radius": 14
+      }
+    },
+    {
+      "id": "pin_1_6",
+      "type": "PIN_BASIC",
+      "configRef": 101,
+      "transform": {
+        "x": 585,
+        "y": 250,
+        "scale": 1,
+        "rotation": 0
+      },
+      "physics": {
+        "friction": 0.05,
+        "restitution": 0.4,
+        "isStatic": true
+      },
+      "params": {
+        "radius": 14
+      }
+    },
+    {
+      "id": "pin_2_1",
+      "type": "PIN_BASIC",
+      "configRef": 101,
+      "transform": {
+        "x": 190,
+        "y": 360,
+        "scale": 1,
+        "rotation": 0
+      },
+      "physics": {
+        "friction": 0.05,
+        "restitution": 0.4,
+        "isStatic": true
+      },
+      "params": {
+        "radius": 14
+      }
+    },
+    {
+      "id": "pin_2_2",
+      "type": "PIN_BASIC",
+      "configRef": 101,
+      "transform": {
+        "x": 280,
+        "y": 360,
+        "scale": 1,
+        "rotation": 0
+      },
+      "physics": {
+        "friction": 0.05,
+        "restitution": 0.4,
+        "isStatic": true
+      },
+      "params": {
+        "radius": 14
+      }
+    },
+    {
+      "id": "pin_2_3",
+      "type": "PIN_BASIC",
+      "configRef": 101,
+      "transform": {
+        "x": 370,
+        "y": 360,
+        "scale": 1,
+        "rotation": 0
+      },
+      "physics": {
+        "friction": 0.05,
+        "restitution": 0.4,
+        "isStatic": true
+      },
+      "params": {
+        "radius": 14
+      }
+    },
+    {
+      "id": "pin_2_4",
+      "type": "PIN_BASIC",
+      "configRef": 101,
+      "transform": {
+        "x": 460,
+        "y": 360,
+        "scale": 1,
+        "rotation": 0
+      },
+      "physics": {
+        "friction": 0.05,
+        "restitution": 0.4,
+        "isStatic": true
+      },
+      "params": {
+        "radius": 14
+      }
+    },
+    {
+      "id": "pin_2_5",
+      "type": "PIN_BASIC",
+      "configRef": 101,
+      "transform": {
+        "x": 550,
+        "y": 360,
+        "scale": 1,
+        "rotation": 0
+      },
+      "physics": {
+        "friction": 0.05,
+        "restitution": 0.4,
+        "isStatic": true
+      },
+      "params": {
+        "radius": 14
+      }
+    },
+    {
+      "id": "pin_3_1",
+      "type": "PIN_BASIC",
+      "configRef": 101,
+      "transform": {
+        "x": 135,
+        "y": 470,
+        "scale": 1,
+        "rotation": 0
+      },
+      "physics": {
+        "friction": 0.05,
+        "restitution": 0.4,
+        "isStatic": true
+      },
+      "params": {
+        "radius": 14
+      }
+    },
+    {
+      "id": "pin_3_2",
+      "type": "PIN_BASIC",
+      "configRef": 101,
+      "transform": {
+        "x": 225,
+        "y": 470,
+        "scale": 1,
+        "rotation": 0
+      },
+      "physics": {
+        "friction": 0.05,
+        "restitution": 0.4,
+        "isStatic": true
+      },
+      "params": {
+        "radius": 14
+      }
+    },
+    {
+      "id": "pin_3_3",
+      "type": "PIN_BASIC",
+      "configRef": 101,
+      "transform": {
+        "x": 315,
+        "y": 470,
+        "scale": 1,
+        "rotation": 0
+      },
+      "physics": {
+        "friction": 0.05,
+        "restitution": 0.4,
+        "isStatic": true
+      },
+      "params": {
+        "radius": 14
+      }
+    },
+    {
+      "id": "pin_3_4",
+      "type": "PIN_BASIC",
+      "configRef": 101,
+      "transform": {
+        "x": 405,
+        "y": 470,
+        "scale": 1,
+        "rotation": 0
+      },
+      "physics": {
+        "friction": 0.05,
+        "restitution": 0.4,
+        "isStatic": true
+      },
+      "params": {
+        "radius": 14
+      }
+    },
+    {
+      "id": "pin_3_5",
+      "type": "PIN_BASIC",
+      "configRef": 101,
+      "transform": {
+        "x": 495,
+        "y": 470,
+        "scale": 1,
+        "rotation": 0
+      },
+      "physics": {
+        "friction": 0.05,
+        "restitution": 0.4,
+        "isStatic": true
+      },
+      "params": {
+        "radius": 14
+      }
+    },
+    {
+      "id": "pin_3_6",
+      "type": "PIN_BASIC",
+      "configRef": 101,
+      "transform": {
+        "x": 585,
+        "y": 470,
+        "scale": 1,
+        "rotation": 0
+      },
+      "physics": {
+        "friction": 0.05,
+        "restitution": 0.4,
+        "isStatic": true
+      },
+      "params": {
+        "radius": 14
+      }
+    },
+    {
+      "id": "pin_4_1",
+      "type": "PIN_BASIC",
+      "configRef": 101,
+      "transform": {
+        "x": 190,
+        "y": 720,
+        "scale": 1,
+        "rotation": 0
+      },
+      "physics": {
+        "friction": 0.05,
+        "restitution": 0.4,
+        "isStatic": true
+      },
+      "params": {
+        "radius": 14
+      }
+    },
+    {
+      "id": "pin_4_2",
+      "type": "PIN_BASIC",
+      "configRef": 101,
+      "transform": {
+        "x": 280,
+        "y": 720,
+        "scale": 1,
+        "rotation": 0
+      },
+      "physics": {
+        "friction": 0.05,
+        "restitution": 0.4,
+        "isStatic": true
+      },
+      "params": {
+        "radius": 14
+      }
+    },
+    {
+      "id": "pin_4_3",
+      "type": "PIN_BASIC",
+      "configRef": 101,
+      "transform": {
+        "x": 370,
+        "y": 720,
+        "scale": 1,
+        "rotation": 0
+      },
+      "physics": {
+        "friction": 0.05,
+        "restitution": 0.4,
+        "isStatic": true
+      },
+      "params": {
+        "radius": 14
+      }
+    },
+    {
+      "id": "pin_4_4",
+      "type": "PIN_BASIC",
+      "configRef": 101,
+      "transform": {
+        "x": 460,
+        "y": 720,
+        "scale": 1,
+        "rotation": 0
+      },
+      "physics": {
+        "friction": 0.05,
+        "restitution": 0.4,
+        "isStatic": true
+      },
+      "params": {
+        "radius": 14
+      }
+    },
+    {
+      "id": "pin_4_5",
+      "type": "PIN_BASIC",
+      "configRef": 101,
+      "transform": {
+        "x": 550,
+        "y": 720,
+        "scale": 1,
+        "rotation": 0
+      },
+      "physics": {
+        "friction": 0.05,
+        "restitution": 0.4,
+        "isStatic": true
+      },
+      "params": {
+        "radius": 14
+      }
+    },
+    {
+      "id": "bumper_center",
+      "type": "BUMPER_ELASTIC",
+      "configRef": 102,
+      "transform": {
+        "x": 360,
+        "y": 620,
+        "scale": 1.2,
+        "rotation": 0
+      },
+      "physics": {
+        "friction": 0.1,
+        "restitution": 1.8,
+        "isStatic": true
+      },
+      "params": {
+        "bonusScore": 75,
+        "impulseMultiplier": 1.18,
+        "radius": 24
+      }
+    },
+    {
+      "id": "glass_left",
+      "type": "BLOCKER_GLASS",
+      "configRef": 103,
+      "transform": {
+        "x": 255,
+        "y": 870,
+        "scale": 1,
+        "rotation": -20
+      },
+      "physics": {
+        "friction": 0.3,
+        "restitution": 0.2,
+        "isStatic": true
+      },
+      "params": {
+        "maxHp": 3,
+        "breakScore": 160,
+        "width": 124,
+        "height": 18
+      }
+    },
+    {
+      "id": "glass_right",
+      "type": "BLOCKER_GLASS",
+      "configRef": 103,
+      "transform": {
+        "x": 465,
+        "y": 870,
+        "scale": 1,
+        "rotation": 20
+      },
+      "physics": {
+        "friction": 0.3,
+        "restitution": 0.2,
+        "isStatic": true
+      },
+      "params": {
+        "maxHp": 3,
+        "breakScore": 160,
+        "width": 124,
+        "height": 18
+      }
+    },
+    {
+      "id": "jackpot_slot",
+      "type": "SLOT_JACKPOT",
+      "configRef": 105,
+      "transform": {
+        "x": 360,
+        "y": 1160,
+        "scale": 1,
+        "rotation": 0
+      },
+      "physics": {
+        "friction": 0.5,
+        "restitution": 0.1,
+        "isStatic": true
+      },
+      "params": {
+        "rewardTableId": "starter_jackpot",
+        "feverChargeBonus": 18,
+        "width": 124,
+        "height": 52
+      }
+    },
+    {
+      "id": "drain_left",
+      "type": "SLOT_DRAIN",
+      "configRef": 106,
+      "transform": {
+        "x": 110,
+        "y": 1160,
+        "scale": 1,
+        "rotation": 0
+      },
+      "physics": {
+        "friction": 0.5,
+        "restitution": 0.1,
+        "isStatic": true
+      },
+      "params": {
+        "killBall": true,
+        "width": 120,
+        "height": 50
+      }
+    },
+    {
+      "id": "drain_right",
+      "type": "SLOT_DRAIN",
+      "configRef": 106,
+      "transform": {
+        "x": 610,
+        "y": 1160,
+        "scale": 1,
+        "rotation": 0
+      },
+      "physics": {
+        "friction": 0.5,
+        "restitution": 0.1,
+        "isStatic": true
+      },
+      "params": {
+        "killBall": true,
+        "width": 120,
+        "height": 50
+      }
+    }
+  ]
+}

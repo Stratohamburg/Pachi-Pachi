@@ -1,0 +1,23 @@
+[
+  {
+    "waveIndex": 1,
+    "targetScore": 800,
+    "ballsProvided": 3,
+    "rewardOptions": 3,
+    "boardId": "board_001"
+  },
+  {
+    "waveIndex": 2,
+    "targetScore": 1400,
+    "ballsProvided": 3,
+    "rewardOptions": 3,
+    "boardId": "board_001"
+  },
+  {
+    "waveIndex": 3,
+    "targetScore": 2100,
+    "ballsProvided": 4,
+    "rewardOptions": 3,
+    "boardId": "board_001"
+  }
+]

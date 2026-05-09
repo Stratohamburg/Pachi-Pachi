@@ -1,0 +1,6 @@
+Relic_ID,Title,Tier,Weight,Buff_Type,Buff_Value,Synergy_Tag,Desc
+3001,动能过载,2,500,BUFF_SCORE_MULTIPLIER,"[1.5]",4,小球速度越快，产生的得权加成越高。
+3002,细胞分裂,3,200,BUFF_SPLIT_ON_COMBO,"[10, 2]",1,单球连击达到10次时，立刻分裂出2颗额外的小球。
+3003,雷区,2,400,BUFF_EXPLOSION_CHANCE,"[0.3, 200]",3,小球每次击中钉子都有30%几率附带爆炸效果，引发范围得分。
+3004,备用能源,1,800,BUFF_STARTING_HP,"[3]",0,本局开始时，额外获得3颗初始后备弹珠。
+3005,重力反转,3,100,BUFF_INVERT_GRAVITY_ON_DRAIN,"[3.0]",2,当小球即将落入吃分槽时，有极低概率触发持续3秒的重力反转。

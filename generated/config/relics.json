@@ -1,0 +1,64 @@
+{
+  "3001": {
+    "id": 3001,
+    "title": "动能过载",
+    "tier": 2,
+    "weight": 500,
+    "buffType": "BUFF_SCORE_MULTIPLIER",
+    "buffValue": [
+      1.5
+    ],
+    "synergyTag": 4,
+    "desc": "小球速度越快，产生的得权加成越高。"
+  },
+  "3002": {
+    "id": 3002,
+    "title": "细胞分裂",
+    "tier": 3,
+    "weight": 200,
+    "buffType": "BUFF_SPLIT_ON_COMBO",
+    "buffValue": [
+      10,
+      2
+    ],
+    "synergyTag": 1,
+    "desc": "单球连击达到10次时，立刻分裂出2颗额外的小球。"
+  },
+  "3003": {
+    "id": 3003,
+    "title": "雷区",
+    "tier": 2,
+    "weight": 400,
+    "buffType": "BUFF_EXPLOSION_CHANCE",
+    "buffValue": [
+      0.3,
+      200
+    ],
+    "synergyTag": 3,
+    "desc": "小球每次击中钉子都有30%几率附带爆炸效果，引发范围得分。"
+  },
+  "3004": {
+    "id": 3004,
+    "title": "备用能源",
+    "tier": 1,
+    "weight": 800,
+    "buffType": "BUFF_STARTING_HP",
+    "buffValue": [
+      3
+    ],
+    "synergyTag": 0,
+    "desc": "本局开始时，额外获得3颗初始后备弹珠。"
+  },
+  "3005": {
+    "id": 3005,
+    "title": "重力反转",
+    "tier": 3,
+    "weight": 100,
+    "buffType": "BUFF_INVERT_GRAVITY_ON_DRAIN",
+    "buffValue": [
+      3
+    ],
+    "synergyTag": 2,
+    "desc": "当小球即将落入吃分槽时，有极低概率触发持续3秒的重力反转。"
+  }
+}

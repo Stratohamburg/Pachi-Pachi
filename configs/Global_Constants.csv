@@ -1,0 +1,8 @@
+Key,Value,Type,Desc
+MAX_ENERGY,50,INT,玩家每日恢复的体力值上限
+ENERGY_COST_PER_RUN,10,INT,每次开局所需消耗的体力值
+FEVER_HIT_COUNT,80,INT,单球不出局的情况下，连击达到该次数自动进入Fever狂热模式
+FEVER_MULTIPLIER,10.0,FLOAT,狂热模式下的全局得分翻倍系数
+PERFECT_LAUNCH_TOLERANCE,0.05,FLOAT,完美发射的容错判定区间 (蓄力95%~100%之间)
+BASE_GRAVITY_Y,9.81,FLOAT,关卡系统的基础向下重力
+SLOT_JACKPOT_PROBABILITY,0.15,FLOAT,进入大奖槽后摇出 7-7-7 (多球大奖) 的基础概率
